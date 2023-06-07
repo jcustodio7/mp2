@@ -14,9 +14,9 @@ const data = {
     {
         id: "3",
         name: "Jewelry ring 3",
-        price: "5500",
+        price: "1500",
         image: "./pics/Ring3.jpg",
-    }, 
+    },
     {
         id: "4",
         name: "Jewelry ring 4",
@@ -26,7 +26,7 @@ const data = {
     {
         id: "5",
         name: "Jewelry ring 5",
-        price: "1500",
+        price: "5500",
         image: "./pics/Ring5.jpg",
     },
 

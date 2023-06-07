@@ -18,7 +18,7 @@ const Products = ({productItems, handleAddProduct}) => {
                         {productItems.name}
                     </h3>
                 </div>
-                <div>     
+                <div> 
                     <h3 className='product-price'>
                     {formatMoney(productItems.price)}
                     </h3>
