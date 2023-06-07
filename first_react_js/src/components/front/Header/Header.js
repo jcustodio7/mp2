@@ -13,12 +13,22 @@ const header = ({cartItems}) => {
       <div className='header-links'>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/home">Home</Link>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <Link to="/product">Products</Link>
           </li>
         </ul>
         <ul>
           <li>
             <Link to="/about">About</Link>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <Link to="/signup">Sign Up</Link>
           </li>
         </ul>
         <ul>
