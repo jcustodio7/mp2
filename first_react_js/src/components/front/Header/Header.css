@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 .header{
  position: sticky;   
  top: 0;
@@ -8,13 +10,14 @@
  justify-content: space-between;
  align-items: center;
  overflow: hidden;
- background-color: gray;
+ background-color: white;
+ font-family: 'Poppins', sans-serif;
 }
 
 .Logo{
     text-decoration: none;
     text-transform: uppercase;
-    color: white;
+    color: black;
     padding-left: 40px;
 }
 
@@ -31,12 +34,12 @@
 .header-links ul li a {
     text-decoration: none;
     text-transform: uppercase;
-    color: white;
+    color: rgb(124, 103, 28);
     padding: 0px 15px;
 }
 
 .header-links ul li a:hover{
-    color: yellow;
+    color: black;
 }
 
 .cart-length {
@@ -44,5 +47,5 @@
     font-size: 14px;
     font-weight: 700;
     vertical-align: super;
-    color: yellow;
+    color: black;
 }
