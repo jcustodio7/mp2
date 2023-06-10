@@ -1,10 +1,13 @@
 import React from 'react'
 import "./Cart.css"
 import { formatMoney } from '../../../utility/helper'
+import { Link } from 'react-router-dom';
+import {Button,  } from '@mui/material';
+
 
 const Cart = ({cartItems, handleAddProduct, handleRemoveProduct, handleCartClearance}) => {
-
   const totalPrice = cartItems.reduce((price, item) => price + item.quantity * item.price, 0)
+
   return (
     <div className='cart-items'>
       <h2 className='cart-items-header'>Cart Items</h2>
@@ -29,7 +32,9 @@ const Cart = ({cartItems, handleAddProduct, handleRemoveProduct, handleCartClear
       <div className='cart-items-total-price-name'>
         Total price
         <div className='cart-items-total-price'>{formatMoney(totalPrice)}</div>
+        <Button className='buttonSubmit'  ><Link to="/checkout">Proceed to checkout</Link></Button>
       </div>
+            
     </div>
   )
 }
