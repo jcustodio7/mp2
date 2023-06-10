@@ -28,7 +28,7 @@ const header = ({cartItems}) => {
         </ul>
         <ul>
           <li>
-            <Link to="/signup">Sign Up</Link>
+            <Link to="/login">Login</Link>
           </li>
         </ul>
         <ul>
