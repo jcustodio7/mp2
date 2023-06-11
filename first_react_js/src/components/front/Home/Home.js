@@ -1,20 +1,12 @@
-import React from 'react';
-import "./Home.css";
-import { Link } from 'react-router-dom';
-import Banner from './images/bg.jpg';
+import React from 'react'
+import "./Home.css"
 
 const Home = () => {
   return (
-    <div className='Home' style={{backgroundImage:`url(${Banner})`}}>
-      <div className='headerContainer'>
-        <h1>Luxe Bijoux</h1>
-        <p>Where elegance meets affordability</p>
-        <Link to="/product">
-            <button>SHOP NOW</button>
-        </Link>
-      </div>
+    <div className='HomeJ'>
+      Home
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

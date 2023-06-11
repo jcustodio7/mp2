@@ -1,83 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
-.Home {
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: left;
-    flex-direction: column;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.headerContainer{
-    width: auto;
-    margin-left: 30px;
-}
-
-.Home .headerContainer h1{
-    justify-content: center;
-    align-items: center;
-    font-size: 100px;
-    font-family: 'Poppins', sans-serif;
-    color: rgb(145, 121, 36);
-}
-
-.Home .headerContainer p{
-    margin-top: 15px;
-    padding: 0;
-    font-size: 20px;
-    font-weight: lighter;
-    color: rgb(153, 130, 45);
-}
-
-.headerContainer button{
-    background-color: rgb(147, 147, 30);
-    margin-top: 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    height: 50px;
-    width: 180px;
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-}
-
-.headerContainer button:hover{
-    background-color: rgb(147, 147, 30);
-    cursor: pointer;
-    transform: scale(1.2);
-}
-
-.Home{
-    justify-content: center;
-    align-items: center;
-}
-.headerContainer{
-    margin-left: 0;
-    border-radius: 10px;
-    width: 30%;
+.HomeJ {
+    margin: 0 auto;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    background-color: white;
-    color: rgb(147, 147, 30);
-}
-
-.Home .headerContainer h1{
-    font-size: 40px;
-    height: 50px;
-    margin: 15px 15px;
-    color: rgb(147, 147, 30);
-}
-.Home .headerContainer p{
-    font-size: 30px;
-    color: rgb(147, 147, 30);
-}
-.headerContainer button{
-    background-color: rgb(147, 147, 30);
-    color: white;
-    margin-bottom: 30px;
+    background-color: lightblue;
+    margin-top: 30px;
+    height: 60vh;
+    font-size: 20px;
+    font-weight: 700;
 }
