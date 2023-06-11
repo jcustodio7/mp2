@@ -3,9 +3,9 @@
 .header{
  position: sticky;   
  top: 0;
- min-height: 80px;
- width: 80%;
- margin: 0 auto;
+ min-height: 70px;
+ width: 100%;
+ margin-right: 20px;
  display: flex;
  justify-content: space-between;
  align-items: center;
@@ -15,10 +15,7 @@
 }
 
 .Logo{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: black;
-    padding-left: 40px;
+    background-image: 'url(../pics/Logo.jpg';
 }
 
 .header-links{

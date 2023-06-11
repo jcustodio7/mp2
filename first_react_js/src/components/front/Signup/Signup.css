@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 .formAlign {
     width: 100% !important;
-    background-color: beige;
     display: flex !important;
+    font-family: 'Poppins';
     justify-content: space-around !important;
 }
 
@@ -11,8 +13,20 @@
 }
 
 .buttonSubmit {
-    display: flex !important;
-    background-color: orange !important;
-    margin-top: 10px !important;
-    margin-bottom: 10px !important;
+    background-color: rgb(147, 147, 30);
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+.buttonSubmit:hover{
+    background-color: rgb(147, 147, 30);
+    cursor: pointer;
+    transform: scale(1.2);
 }

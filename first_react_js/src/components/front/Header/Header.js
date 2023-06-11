@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import ShoppingCartSharpIcon from '@mui/icons-material/ShoppingCartSharp';
+import reactLogo from './img/Logo.jpg';
 import "./Header.css"
 
 const header = ({cartItems}) => {
@@ -8,6 +9,7 @@ const header = ({cartItems}) => {
     <header className='header'>
       <div>
         <h1>
+          <img style={{width: 250, height:50}} src={reactLogo} alt='react logo'></img>
           <Link to="/" className='Logo'></Link>
         </h1>
       </div>
