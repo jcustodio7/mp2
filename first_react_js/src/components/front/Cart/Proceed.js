@@ -8,6 +8,7 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
 import { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
+// import { formatMoney } from '../../../utility/helper'
 
 
 const Proceed = ({totalPrice, handleCartClearance }) => {
@@ -146,7 +147,8 @@ const Proceed = ({totalPrice, handleCartClearance }) => {
         </Grid>
       </Grid>
     <Grid container spacing={0} className = 'formAlign'>
-        <Grid item xs={12} sm={4} className='fontSize'>Total amount to pay:  {totalPrice}
+        <Grid item xs={12} sm={4} className='fontSize'>
+            {/* Total amount to pay:  { formatMoney(totalPrice) } */}
         </Grid>
     </Grid>
     <Grid container spacing={0} className = 'formAlign'>
@@ -163,7 +165,7 @@ const Proceed = ({totalPrice, handleCartClearance }) => {
         pauseOnHover
         theme="dark"
       />
-      <Button className='buttonSubmit' onClick={(event) => {handleSubmit(event);}} ><Link>Checkout</Link></Button>
+      <Button className='buttonSubmit' onClick={(event) => {handleSubmit(event);}} ><Link className='buttonCheckout'>Checkout</Link></Button>
       </Grid>
     </Grid>
     </Box>

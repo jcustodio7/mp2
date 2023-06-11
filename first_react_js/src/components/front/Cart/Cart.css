@@ -107,3 +107,20 @@
 .clear-cart-button:hover {
     background-color: gray;
 }
+
+.buttonCheckoutProceed {
+    text-decoration: none !important;
+    background-color: white !important;
+    height: 40px;
+    width: 200px;
+    padding-top: 10px;
+}
+
+.buttonCheckoutProceed:active {transform: translateY(1.2px);
+}
+
+.buttonSubmitCart {
+    text-decoration: none !important;
+    margin-top: 40px !important;
+
+}

@@ -32,7 +32,7 @@ const Cart = ({cartItems, handleAddProduct, handleRemoveProduct, handleCartClear
       <div className='cart-items-total-price-name'>
         Total price
         <div className='cart-items-total-price'>{formatMoney(totalPrice)}</div>
-        <Button className='buttonSubmit'  ><Link to="/checkout">Proceed to checkout</Link></Button>
+        <Button className='buttonSubmitCart'  ><Link className='buttonCheckoutProceed' to="/checkout">Proceed to checkout</Link></Button>
       </div>
             
     </div>
