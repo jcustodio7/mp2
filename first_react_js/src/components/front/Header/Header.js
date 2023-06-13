@@ -38,7 +38,7 @@ const header = ({cartItems}) => {
             <Link to="/cart" className='cart'>
               <ShoppingCartSharpIcon/>
               <span className='cart-length'>
-                {/* {cartItems.length === 0 ? " " : cartItems.length} */}
+                {cartItems.length === 0 ? " " : cartItems.length}
               </span>
             </Link>
           </li>
