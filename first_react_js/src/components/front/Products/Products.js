@@ -1,11 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Products.css";
 import { formatMoney } from '../../../utility/helper';
 
 const Products = ({productItems, handleAddProduct}) => {
+
+  const [filterItem, setfilterItem] = useState("");
+  const searchText = (event) => {setfilterItem(event.target.value)}
+  const productItemSearch = productItems.filter(item => {
+    return Object.keys(item).some(key => item[key].toString().toLowerCase().includes(filterItem.toString().toLowerCase()))
+  })
+
   return (
+    <>
+    <div className='searchBar'>
+      <div className='searchContainer'>
+        <input className='inputSearch' type="text" value={filterItem} placeholder=' Search here ... ' onChange={searchText.bind(this)} />
+      </div>
+    </div>
     <div className='productsJ'>
-        {productItems.map((productItems) => (
+        {productItemSearch.map((productItems) => (
             <div className='cardJ' key={productItems.id}>
                 <div>
                     <img 
@@ -31,6 +44,7 @@ const Products = ({productItems, handleAddProduct}) => {
         ))}
  
     </div>
+    </>
   )
 }
 
