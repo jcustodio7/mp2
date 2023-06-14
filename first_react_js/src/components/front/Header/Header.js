@@ -1,17 +1,28 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import ShoppingCartSharpIcon from '@mui/icons-material/ShoppingCartSharp';
+import reactLogo from './img/Logo.jpg';
 import "./Header.css"
+import SearchBar from '../../SearcBar/SearchBar';
+
 
 const header = ({cartItems}) => {
   return (
+    <> 
+    
     <header className='header'>
       <div>
         <h1>
+          <img style={{width: 250, height:50}} src={reactLogo} alt='react logo'></img>
           <Link to="/" className='Logo'></Link>
         </h1>
       </div>
       <div className='header-links'>
+          <ul>
+          <li>
+            {/* <SearchBar/> */}
+          </li>
+        </ul> 
         <ul>
           <li>
             <Link to="/home">Home</Link>
@@ -22,6 +33,7 @@ const header = ({cartItems}) => {
             <Link to="/product">Products</Link>
           </li>
         </ul>
+        
         <ul>
           <li>
             <Link to="/about">About</Link>
@@ -32,6 +44,7 @@ const header = ({cartItems}) => {
             <Link to="/login">Login</Link>
           </li>
         </ul>
+         
         <ul>
           <li>
             {/* add icons for the cart */}
@@ -43,8 +56,9 @@ const header = ({cartItems}) => {
             </Link>
           </li>
         </ul>
+        
       </div>
-    </header>
+    </header></>
   )
 }
 

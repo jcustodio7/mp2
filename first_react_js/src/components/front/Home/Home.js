@@ -2,9 +2,11 @@ import React from 'react';
 import "./Home.css";
 import { Link } from 'react-router-dom';
 import Banner from './images/bg.jpg';
+import { Box, Container } from '@mui/material';
 
 const Home = () => {
   return (
+    
     <div className='Home' style={{backgroundImage:`url(${Banner})`}}>
       <div className='headerContainer'>
         <h1>Luxe Bijoux</h1>

@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 .Home {
-    height: 80vh;
+   
+      height: 90vh;  
     display: flex;
     justify-content: center;
     align-items: left;
     flex-direction: column;
-    background-position: center;
+    background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -20,15 +21,15 @@
     align-items: center;
     font-size: 100px;
     font-family: 'Poppins', sans-serif;
-    color: rgb(145, 121, 36);
+    color: rgb(235, 197, 62);
 }
 
 .Home .headerContainer p{
     margin-top: 15px;
     padding: 0;
-    font-size: 20px;
+    font-size: 5px;
     font-weight: lighter;
-    color: rgb(153, 130, 45);
+    color: rgb(188, 158, 47);
 }
 
 .headerContainer button{

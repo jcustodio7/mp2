@@ -2,6 +2,9 @@ import React, { useState } from 'react'
 import "./Products.css";
 import { formatMoney } from '../../../utility/helper';
 
+
+
+
 const Products = ({productItems, handleAddProduct}) => {
 
   const [filterItem, setfilterItem] = useState("");
@@ -39,10 +42,8 @@ const Products = ({productItems, handleAddProduct}) => {
                 <div>
                     <button className='product-addCart' onClick={() => handleAddProduct(productItems)}> Add to Cart</button>
                 </div>
-
             </div>
         ))}
- 
     </div>
     </>
   )
