@@ -119,5 +119,11 @@
 .buttonSubmitCart {
     text-decoration: none !important;
     margin-top: 40px !important;
+}
 
+.buttonCheckoutProceed {
+    background-color: rgb(147, 147, 30) !important;
+    border-radius: 10px !important;
+    padding-top:15px !important;
+    margin-left: 100px !important;
 }

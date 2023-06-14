@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import ShoppingCartSharpIcon from '@mui/icons-material/ShoppingCartSharp';
 import reactLogo from './img/Logo.jpg';
 import "./Header.css"
-import SearchBar from '../../SearcBar/SearchBar';
 
 
 const header = ({cartItems}) => {
@@ -20,7 +19,7 @@ const header = ({cartItems}) => {
       <div className='header-links'>
           <ul>
           <li>
-            {/* <SearchBar/> */}
+            {/* <SearchBar/> pwede na to idisregard since nasa products na yung search bar */}
           </li>
         </ul> 
         <ul>

@@ -17,7 +17,7 @@ const Products = ({productItems, handleAddProduct}) => {
     <>
     <div className='searchBar'>
       <div className='searchContainer'>
-        <input className='inputSearch' type="text" value={filterItem} placeholder=' Search here ... ' onChange={searchText.bind(this)} />
+        <input className='inputSearch' type="text" value={filterItem} placeholder='      Search here ... ' onChange={searchText.bind(this)} />
       </div>
     </div>
     <div className='productsJ'>
