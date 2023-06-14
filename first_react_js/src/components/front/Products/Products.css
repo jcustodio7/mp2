@@ -69,8 +69,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.product-addCart:active{
+    transform: translateY(2px);
+}
+
 .inputSearch {
     height: 50px;
     width: 500px;
     font-family: 'Poppins', sans-serif;
-}
+  }

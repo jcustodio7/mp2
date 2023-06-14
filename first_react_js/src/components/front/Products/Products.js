@@ -2,6 +2,9 @@ import React, { useState } from 'react'
 import "./Products.css";
 import { formatMoney } from '../../../utility/helper';
 
+
+
+
 const Products = ({productItems, handleAddProduct}) => {
 
   const [filterItem, setfilterItem] = useState("");

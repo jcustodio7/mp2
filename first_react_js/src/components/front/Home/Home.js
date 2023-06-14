@@ -10,6 +10,7 @@ import Banner from './images/diamond4.jpg';
 
 const Home = () => {
   return (
+    
     <div className='Home' style={{backgroundImage:`url(${Banner})`}}>
       <div className='headerContainer'>
         <h1>Luxe Bijoux</h1>

@@ -5,6 +5,7 @@ import { Alert, Box, Button, Container, Grid } from '@mui/material';
 import { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { Link } from 'react-router-dom';
 
 export default function Signup() {
 
@@ -157,6 +158,7 @@ export default function Signup() {
       <Grid container spacing={0} className = 'formAlign'>
         <Grid>
         <Button className='buttonSubmit' type='submit' onClick={(event) => handleSubmit(event)}>Submit</Button>
+        <Button className='buttonSubmit' ><Link to="/login">Click here to Login</Link></Button>
         </Grid>
       </Grid>
       <ToastContainer
