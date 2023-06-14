@@ -3,11 +3,12 @@ import SearchIcon from '@mui/icons-material/Search';
 import CloseIcon from '@mui/icons-material/Close';
 import React, { useState } from 'react';
 import "./SearchBar.css";
+import { formatMoney } from '../../utility/helper';
 
 
 
 
-function SearchBar() {
+const  SearchBar=({handleAddProduct})=> {
   
   const productItems=[
    {
@@ -100,9 +101,7 @@ function SearchBar() {
         event.preventDefault();
          const filtered = productItems.filter((items) => items.name.toLowerCase().includes(searchProduct.toLowerCase()));
         setfilteredProducts(filtered);
-        if(searchProduct ===""){
-
-        }
+        
      
    } 
       
@@ -134,6 +133,7 @@ return (
           return (<div  key={items.id}><img className="products" src={items.image} alt={items.name}/><div><h3>{items.name}</h3></div></div>) 
         })} 
        </div>   */}
+
        <div className='productsJ'>
         {filteredProducts.map((items) => (
             <div className='cardJ' key={productItems.id}>
