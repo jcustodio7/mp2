@@ -134,6 +134,31 @@ return (
           return (<div  key={items.id}><img className="products" src={items.image} alt={items.name}/><div><h3>{items.name}</h3></div></div>) 
         })} 
        </div>   */}
+       <div className='productsJ'>
+        {filteredProducts.map((items) => (
+            <div className='cardJ' key={productItems.id}>
+                <div>
+                    <img 
+                    className='product-image' 
+                    src={items.image} 
+                    alt={items.name}/>
+                </div>
+                <div>
+                    <h3 className='product-name'>
+                        {items.name}
+                    </h3>
+                </div>
+                <div> 
+                    <h3 className='product-price'>
+                    {formatMoney(items.price)}
+                    </h3>
+                </div>
+                <div>
+                    <button className='product-addCart' onClick={() => handleAddProduct(items)}> Add to Cart</button>
+                </div>
+            </div>
+        ))}
+    </div> 
          
      </>
   )

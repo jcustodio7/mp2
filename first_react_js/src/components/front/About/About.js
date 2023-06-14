@@ -4,6 +4,7 @@ import { Box, Typography } from '@mui/material';
 
 const About = () => {
   return (
+    <> 
     <Box sx={{
       my: 15,
       textAlign: 'center',
@@ -32,7 +33,7 @@ const About = () => {
       <br />
       <Typography variant='h3'>Vision</Typography>
       <p>
-      Our Vision is to be your top of mind when in need of memorable jewelry and pay tribute to traditional handcraft.
+       Our Vision is to be your top of mind when in need of memorable jewelry and pay tribute to traditional handcraft.
       </p>
       <br />
       <Typography variant='h3'>Values</Typography>
@@ -40,6 +41,8 @@ const About = () => {
       Our values are to create an inspirational workplace with room for development and change. Nothing is static, everything can happen when being open to changes and let the creativity flow.
       </p>
     </Box>
+    
+   </>
   );
 };
 

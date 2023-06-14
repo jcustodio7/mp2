@@ -1,13 +1,17 @@
 import React  from 'react'
 import "./Products.css";
 import { formatMoney } from '../../../utility/helper';
+import SearchBar from '../../SearcBar/SearchBar';
+
 
 
 
 
 const Products = ({productItems, handleAddProduct}) => {
    return (
-    <div className='productsJ'>
+    <>
+    <SearchBar/>
+     <div className='productsJ'>
         {productItems.map((productItems) => (
             <div className='cardJ' key={productItems.id}>
                 <div>
@@ -31,7 +35,8 @@ const Products = ({productItems, handleAddProduct}) => {
                 </div>
             </div>
         ))}
-    </div>
+    </div> 
+    </>
   )
 }
 
