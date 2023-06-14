@@ -4,8 +4,11 @@ import ShoppingCartSharpIcon from '@mui/icons-material/ShoppingCartSharp';
 import reactLogo from './img/Logo.jpg';
 import "./Header.css"
 
+
 const header = ({cartItems}) => {
   return (
+    <> 
+    
     <header className='header'>
       <div>
         <h1>
@@ -14,6 +17,11 @@ const header = ({cartItems}) => {
         </h1>
       </div>
       <div className='header-links'>
+          <ul>
+          <li>
+            {/* <SearchBar/> pwede na to idisregard since nasa products na yung search bar */}
+          </li>
+        </ul> 
         <ul>
           <li>
             <Link to="/home">Home</Link>
@@ -24,6 +32,7 @@ const header = ({cartItems}) => {
             <Link to="/product">Products</Link>
           </li>
         </ul>
+        
         <ul>
           <li>
             <Link to="/about">About</Link>
@@ -31,9 +40,10 @@ const header = ({cartItems}) => {
         </ul>
         <ul>
           <li>
-            <Link to="/signup">Sign Up</Link>
+            <Link to="/login">Login</Link>
           </li>
         </ul>
+         
         <ul>
           <li>
             {/* add icons for the cart */}
@@ -45,8 +55,9 @@ const header = ({cartItems}) => {
             </Link>
           </li>
         </ul>
+        
       </div>
-    </header>
+    </header></>
   )
 }
 

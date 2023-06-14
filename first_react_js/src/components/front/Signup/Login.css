@@ -1,0 +1,45 @@
+.formAlign {
+    width: 100% !important;
+    background-color: black;
+    display: flex !important;
+    justify-content: space-around !important;
+}
+
+.fontSize {
+    font-size: 20px;
+    margin-top: 10px !important;
+}
+
+.buttonSubmit1 {
+    display: flex !important;
+    background-color: orange !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    width: 125px !important;
+}
+
+.buttonSubmit1:hover{
+    background-color: rgb(147, 147, 30);
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.buttonSubmit2 {
+    display: flex !important;
+    background-color: orange !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    width: 400px !important;
+    text-decoration: none !important;
+}
+
+.buttonSubmit2:hover{
+    background-color: rgb(147, 147, 30);
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.buttonsAlignment {
+    display: flex;
+    text-align: center;
+}
