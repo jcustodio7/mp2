@@ -1,9 +1,9 @@
-import React from 'react'
-import './Login.css'
+import React from 'react';
+import './Login.css';
 import TextField from '@mui/material/TextField';
 import { Box, Button, Container, Grid } from '@mui/material';
 import { useState } from 'react';
-import './Signup.js'
+import './Signup.js';
 import { Link } from 'react-router-dom';
 // import Signup from './Signup.js';
 
@@ -11,8 +11,6 @@ const Login = (  ) => {
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-
-
 
   return (
 <Container>
