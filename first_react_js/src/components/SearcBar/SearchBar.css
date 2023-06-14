@@ -1,0 +1,9 @@
+.inputSearch{
+    padding: 2px 4px;
+    margin-top: 5px;
+    margin-left:350px;
+    width:500px;
+    display:flex;
+    align-items:center;
+}
+
