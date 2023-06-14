@@ -62,3 +62,17 @@
     cursor: pointer;
     transform: scale(1.2);
 }
+
+.product-addCart:active{
+    transform: translateY(2px);
+}
+
+.searchBar {
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.inputSearch {
+    height: 50px;
+    width: 500px;
+}
