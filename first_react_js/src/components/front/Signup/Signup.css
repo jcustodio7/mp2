@@ -19,7 +19,7 @@
     border-radius: 5px;
     cursor: pointer;
     height: 50px;
-    width: 50px;
+    width: 100px;
     text-decoration: none;
     font-size: 15px;
     color: white;
@@ -30,3 +30,19 @@
     cursor: pointer;
     transform: scale(1.2);
 }
+
+.buttonSubmit {
+    display: flex !important;
+    background-color: orange !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    width: 400px !important;
+    text-decoration: none !important;
+}
+
+.buttonSubmit:hover{
+    background-color: rgb(147, 147, 30);
+    cursor: pointer;
+    transform: scale(1.2);
+}
+

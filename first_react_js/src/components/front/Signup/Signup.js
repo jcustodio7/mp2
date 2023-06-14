@@ -158,7 +158,7 @@ export default function Signup() {
       <Grid container spacing={0} className = 'formAlign'>
         <Grid>
         <Button className='buttonSubmit' type='submit' onClick={(event) => handleSubmit(event)}>Submit</Button>
-        <Button className='buttonSubmit' ><Link to="/login">Click here to Login</Link></Button>
+        <Button className='buttonSubmit' ><Link className='buttonSubmitLogin' to="/login">Click here to Login</Link></Button>
         </Grid>
       </Grid>
       <ToastContainer
