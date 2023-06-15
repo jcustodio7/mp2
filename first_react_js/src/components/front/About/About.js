@@ -4,7 +4,6 @@ import { Box, Typography } from '@mui/material';
 
 const About = () => {
   return (
-    <> 
     <Box sx={{
       my: 15,
       textAlign: 'center',
@@ -26,23 +25,21 @@ const About = () => {
       <p>
       Our diamonds are elevated in jewellery designs that light up life’s most memorable occasions as well as its everyday moments, igniting a spark in the wearer and encouraging them to live life to their full potential. Our designs are modern, clean, distinctive yet never overly ornate. They are timeless with a twist, and the diamond is the hero of each piece. At the heart of Luxe Bijoux is 'Building Forever', the company's commitment to ensure that every diamond we discover creates a lasting positive impact for the people and places where it is found. 
       </p>
-      <Typography variant='h3'>Mission</Typography>
+      <h1>Mission</h1>
       <p>
       Our mission is to praise the urban woman and make her stand out by creating handcrafted affordable luxury jewelry that contributes her personal style. We strive to create jewelry that inspires and keeps happy memories alive, whether it's a tiny pendant or a huge diamond ring.
       </p>
       <br />
-      <Typography variant='h3'>Vision</Typography>
+      <h1>Vision</h1>
       <p>
        Our Vision is to be your top of mind when in need of memorable jewelry and pay tribute to traditional handcraft.
       </p>
       <br />
-      <Typography variant='h3'>Values</Typography>
+      <h1>Values</h1>
       <p>
       Our values are to create an inspirational workplace with room for development and change. Nothing is static, everything can happen when being open to changes and let the creativity flow.
       </p>
     </Box>
-    
-   </>
   );
 };
 

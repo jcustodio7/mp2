@@ -5,18 +5,16 @@
  top: 0;
  min-height: 70px;
  width: 100%;
- margin-right: 18px;
+ margin-right: 20px;
  display: flex;
- flex-wrap:nowrap;
  justify-content: space-between;
- align-items: start;
+ align-items: center;
  overflow: hidden;
  background-color: white;
  font-family: 'Poppins', sans-serif;
 }
 
 .Logo{
-
     background-image: 'url(../pics/Logo.jpg';
 }
 

@@ -1,9 +1,9 @@
-import React from 'react'
-import './Login.css'
+import React from 'react';
+import './Login.css';
 import TextField from '@mui/material/TextField';
 import { Box, Button, Container, Grid } from '@mui/material';
 import { useState } from 'react';
-import './Signup.js'
+import './Signup.js';
 import { Link } from 'react-router-dom';
 // import Signup from './Signup.js';
 
@@ -11,8 +11,6 @@ const Login = (  ) => {
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-
-
 
   return (
 <Container>
@@ -43,12 +41,10 @@ const Login = (  ) => {
         />
         </Grid>
       </Grid>
-      <Grid container spacing={0} className = 'formAlign'>
-        <Grid>
-        <Button className='buttonSubmit' type='submit'>Login</Button>
-        <Button className='buttonSubmit'  ><Link to="/signup">Don't have an account? Click here to register!</Link></Button>
-        </Grid>
-      </Grid>
+      <div >
+        <Button className='buttonSubmit1' type='submit'>Login</Button>
+        <Button className='buttonSubmit2'  ><Link to="/signup">Don't have an account? Click here to register!</Link></Button>
+      </div>
       </Box>
     </Container>
   )

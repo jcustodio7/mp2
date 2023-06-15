@@ -3,6 +3,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import CloseIcon from '@mui/icons-material/Close';
 import React, { useState } from 'react';
 import "./SearchBar.css";
+import { formatMoney } from '../../utility/helper';
 
 
 
@@ -134,7 +135,7 @@ return (
           return (<div  key={items.id}><img className="products" src={items.image} alt={items.name}/><div><h3>{items.name}</h3></div></div>) 
         })} 
        </div>   */}
-       <div className='productsJ'>
+       {/* <div className='productsJ'>
         {filteredProducts.map((items) => (
             <div className='cardJ' key={productItems.id}>
                 <div>
@@ -158,7 +159,7 @@ return (
                 </div>
             </div>
         ))}
-    </div> 
+    </div>  */}
          
      </>
   )

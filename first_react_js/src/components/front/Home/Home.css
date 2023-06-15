@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 .Home {
-   
-      height: 90vh;  
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: left;
     flex-direction: column;
-    background-position: center ;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -21,7 +20,7 @@
     align-items: center;
     font-size: 100px;
     font-family: 'Poppins', sans-serif;
-    color: rgb(235, 197, 62);
+    color: rgb(127, 108, 41);
 }
 
 .Home .headerContainer p{
@@ -29,7 +28,7 @@
     padding: 0;
     font-size: 5px;
     font-weight: lighter;
-    color: rgb(188, 158, 47);
+    color: rgb(127, 108, 41);
 }
 
 .headerContainer button{
@@ -46,7 +45,7 @@
 }
 
 .headerContainer button:hover{
-    background-color: rgb(147, 147, 30);
+    background-color: black;
     cursor: pointer;
     transform: scale(1.2);
 }
@@ -63,7 +62,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: white;
+    background: rgb(255,255,255,0.3);
     color: rgb(147, 147, 30);
 }
 
@@ -71,14 +70,17 @@
     font-size: 40px;
     height: 50px;
     margin: 15px 15px;
-    color: rgb(147, 147, 30);
+    color: black;
 }
 .Home .headerContainer p{
     font-size: 30px;
-    color: rgb(147, 147, 30);
+    color: black;
 }
 .headerContainer button{
-    background-color: rgb(147, 147, 30);
+    background-color: black;
     color: white;
     margin-bottom: 30px;
+}
+.headerContainer1{
+    color: black;
 }

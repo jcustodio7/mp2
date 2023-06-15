@@ -1,7 +1,7 @@
-import React  from 'react'
+import React, { useState } from 'react'
 import "./Products.css";
 import { formatMoney } from '../../../utility/helper';
-import SearchBar from '../../SearcBar/SearchBar';
+
 
 
 
@@ -10,7 +10,7 @@ import SearchBar from '../../SearcBar/SearchBar';
 const Products = ({productItems, handleAddProduct}) => {
    return (
     <>
-    <SearchBar/>
+   
      <div className='productsJ'>
         {productItems.map((productItems) => (
             <div className='cardJ' key={productItems.id}>
