@@ -48,7 +48,7 @@ const Login = (  ) => {
         <Button className='buttonSubmit' type='submit'>Login</Button>
         <Button className='buttonSubmit'  ><Link to="/signup">Don't have an account? Click here to register!</Link></Button>
         </Grid>
-      </Grid>
+      </Grid> 
       </Box>
     </Container>
   )
