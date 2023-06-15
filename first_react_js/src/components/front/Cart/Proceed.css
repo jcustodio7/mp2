@@ -1,9 +1,19 @@
 .buttonCheckout {
     text-decoration: none !important;
+    color:white !important;
 }
 
 .buttonSubmit {
     text-decoration: none !important;
-    margin-top: 40px !important;
-
+    margin-top: 5px !important;
+    background-color: black !important;
+    border: none !important;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px !important;
+    width: 200px !important;
+    font-size: 15px !important; 
+}
+.buttonSubmit:hover{
+    background-color: gray !important;
 }

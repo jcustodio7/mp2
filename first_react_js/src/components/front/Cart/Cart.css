@@ -97,8 +97,8 @@
     border: none;
     border-radius: 5px;
     background-color: black;
-    height: 30px;
-    width: 100px;
+    height: 40px;
+    width: 180px;
     font-size: 18px;
     color: white;
     cursor: pointer;
@@ -108,25 +108,28 @@
     background-color: gray;
 }
 
-.buttonCheckoutProceed {
-    text-decoration: none !important;
-    background-color: white !important;
-    height: 40px;
-    width: 200px;
-    padding-top: 10px;
-}
 
-.buttonCheckoutProceed:active {transform: translateY(1.2px);
-}
 
 .buttonSubmitCart {
     text-decoration: none !important;
     margin-top: 40px !important;
+    margin-left:200px !important;
+    background-color: black !important;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    width: 250px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white !important;
 }
 
-.buttonCheckoutProceed {
-    background-color: rgb(147, 147, 30) !important;
-    border-radius: 10px !important;
-    padding-top:15px !important;
-    margin-left: 100px !important;
+.buttonSubmitCart:hover {
+    background-color: gray !important;
 }
+ .buttonCheckoutProceed {
+    color: white !important;
+    padding-top:5px !important;
+   
+} 
