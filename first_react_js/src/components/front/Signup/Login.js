@@ -43,12 +43,10 @@ const Login = (  ) => {
         />
         </Grid>
       </Grid>
-      <Grid container spacing={0} className = 'formAlign'>
-        <Grid>
-        <Button className='buttonSubmit' type='submit'>Login</Button>
-        <Button className='buttonSubmit'  ><Link to="/signup">Don't have an account? Click here to register!</Link></Button>
-        </Grid>
-      </Grid> 
+      <div >
+        <Button className='buttonSubmit1' type='submit'>Login</Button>
+        <Button className='buttonSubmit2'  ><Link to="/signup">Don't have an account? Click here to register!</Link></Button>
+      </div>
       </Box>
     </Container>
   )
