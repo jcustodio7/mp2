@@ -9,7 +9,7 @@ const data = {
         id: "2",
         name: "Setting Round Engagement Ring with Diamond Band",
         price: "3500",
-        image: "./pics/Ring6.jpg",
+        image: "./pics/ring6.jpg",
     },
     {
         id: "3",
